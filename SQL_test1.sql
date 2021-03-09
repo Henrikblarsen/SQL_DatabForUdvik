@@ -7,6 +7,8 @@ SELECT TOP (1000) [AddressID]
       ,[SpatialLocation]
       ,[rowguid]
       ,[ModifiedDate]
+      ,1 AS test
   FROM [AdventureWorks2019].[Person].[Address]
--- testing 
--- Testing again
+
+
+-testing igen
